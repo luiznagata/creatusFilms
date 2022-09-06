@@ -1,0 +1,102 @@
+    1  exit
+    2  ls
+    3  python3 manager.py runserver
+    4  ls
+    5  python3 manage.py runserver
+    6  cd .git
+    7  ls
+    8  code config
+    9  cd creatusFilms/
+   10  code .
+   11  git push
+   12  git push -u origin main
+   13  ssh
+   14  eval "$(ssh-agent -s)"
+   15  cd ..
+   16  ls
+   17  cat .ssh/
+   18  cat .ssh/id_ed25519
+   19  cat .ssh/id_ed25519.pub 
+   20  cd creatusFilms/
+   21  git push -u origin
+   22  git push -u origin main
+   23  git status
+   24  git add .
+   25  git commit -m "estrutura inicial do projeto"
+   26  git push 
+   27  pip freeze
+   28  pip freeze > requirements.txt
+   29  git add .
+   30  git commit -m "adicionando arquivo de dependencia"
+   31  git push 
+   32  git add .
+   33  git commit -m "primeira atualização o arquivo de requirements"
+   34  git push 
+   35  docker compose up
+   36  docker compose up --build
+   37  docker compose up --build 
+   38  docker compose up --build
+   39  docker compose up --build -d
+   40  docker compose up --build
+   41  ls
+   42  cd creatusFilms/
+   43  ls
+   44  code requirements.txt 
+   45  git add .
+   46  git push
+   47  git commit -m "retirada da linha do colorama"
+   48  git status
+   49  git add .
+   50  git commit -m "retirada da linha do colorama"
+   51  git push
+   52  git status
+   53  git add .
+   54  git commit -m "correção do inserção somente do Django"
+   55  git push
+   56  ls
+   57  code manage.py 
+   58  cd creatusFilms/
+   59  ls
+   60  code settings.py 
+   61  cd ..
+   62  git status
+   63  git add .
+   64  git commit -m "correção do settings.py e requirements"
+   65  git push
+   66  git status
+   67  git add .
+   68  git commit -m "correção do settings.py para acertara configuração do heroku"
+   69  git push
+   70  git add .
+   71  git commit -m "nova correção do settings.py para acertara configuração do heroku"
+   72  git push
+   73  ls
+   74  code Procfile 
+   75  pip install gunicorn
+   76  gunicorn creatusFilms.wsgi
+   77  git add .
+   78  git commit -m "outra  correção do settings.py para acertara configuração do heroku"
+   79  git push
+   80  python manage.py collectstatic --noinput
+   81  python3 manage.py collectstatic --noinput
+   82  ls -l
+   83  git status
+   84  git add .
+   85  git commit -m "outra nova correção do settings.py para acertara configuração do heroku"
+   86  git push
+   87  ls
+   88  code .
+   89  python
+   90  python3
+   91  python3 --version
+   92  pgsql
+   93  git status
+   94  git add .
+   95  git commit -m "Atualizações do docker para o inicio do Projeto"
+   96  git push
+   97  ls
+   98  cd creatusFilms/
+   99  ls
+  100  code .
+  101  python3 manage.py startapp Films
+  102  history > historia1.txt

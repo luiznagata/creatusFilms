@@ -7,4 +7,5 @@ class Films(models.Model):
     nome = models.TextField(max_length=100)
     autor = models.TextField(max_length=80)
     descricao = models.TextField(max_length=200)
+    sinopse = models.TextField(max_length=5000,default="")
     imagem = models.TextField()
